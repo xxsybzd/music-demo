@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1684523004455') format('truetype');
+  src: url('iconfont.ttf?t=1684578028597') format('truetype');
 }
 
 .iconfont {
@@ -11,12 +11,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-huanyihuan:before {
+  content: "\e62d";
+}
+
+.icon-bofang:before {
+  content: "\e624";
+}
+
 .icon-faxian:before {
   content: "\e8af";
 }
 
 .icon-gedan:before {
   content: "\e6bf";
+}
+
+.icon-Right:before {
+  content: "\e619";
 }
 
 .icon-boke1-copy:before {

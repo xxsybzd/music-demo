@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <index></index>
-    <router-view />
+    <keep-alive>
+      <router-view />
+    </keep-alive>
   </div>
 </template>
 <script>
@@ -16,4 +18,7 @@ export default {
 };
 </script>
 <style lang="less">
+html {
+  background: rgb(248, 249, 255);
+}
 </style>
