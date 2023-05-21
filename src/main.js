@@ -9,12 +9,13 @@ import "@/assets/iconfont/iconfont.css"
 import "@/assets/reset.css"
 import "@/assets/backgroundClip.css"
 Vue.use(Vant);
-import { Tabbar, TabbarItem,Search ,Swipe, SwipeItem,Lazyload,Loading   } from 'vant';
+import { Tabbar, TabbarItem,Search ,Swipe,NavBar , SwipeItem,Lazyload,Loading   } from 'vant';
 Vue.use(Tabbar).use(TabbarItem);
 Vue.use(Search);
 Vue.use(Swipe).use(SwipeItem);
 Vue.use(Loading);
 Vue.use(Lazyload);
+Vue.use(NavBar )
 Vue.config.productionTip = false
 
 new Vue({

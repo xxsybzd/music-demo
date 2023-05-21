@@ -1,9 +1,6 @@
 <template>
   <div id="app">
     <index></index>
-    <keep-alive>
-      <router-view />
-    </keep-alive>
   </div>
 </template>
 <script>

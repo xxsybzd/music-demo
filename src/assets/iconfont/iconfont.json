@@ -13,6 +13,27 @@
       "unicode_decimal": 58925
     },
     {
+      "icon_id": "5121501",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "7134740",
+      "name": "转发",
+      "font_class": "zhuanfa",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "7556174",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
       "icon_id": "11343800",
       "name": "播放",
       "font_class": "bofang",

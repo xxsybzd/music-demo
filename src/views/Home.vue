@@ -21,9 +21,11 @@
         indicator-color="white"
         v-if="banners.length != 0"
       >
-        <van-swipe-item v-for="item in banners" :key="item.bannerId">
-          <img v-lazy="item.pic" />
-        </van-swipe-item>
+        <template v-for="item in banners">
+          <van-swipe-item v-if="item && item.pic" :key="item.bannerId">
+            <img :src="item.pic" />
+          </van-swipe-item>
+        </template>
       </van-swipe>
     </div>
     <div class="content">

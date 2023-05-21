@@ -1,7 +1,7 @@
 <template>
   <div class="index">
     <nav>
-      <van-tabbar route v-model="active">
+      <van-tabbar route v-model="active" v-if="!$route.meta.hideTab">
         <van-tabbar-item replace to="/home" class="iconfont icon-faxian"
           >发现</van-tabbar-item
         >
@@ -13,6 +13,9 @@
         >
       </van-tabbar>
     </nav>
+    <keep-alive>
+      <router-view />
+    </keep-alive>
   </div>
 </template>
 <script>

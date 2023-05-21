@@ -9,8 +9,8 @@ import axios from "axios";
 // axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
 let config = {
-  baseURL: "https://autumnfish.cn/"
-  // timeout: 60 * 1000, // Timeout
+  baseURL: "https://autumnfish.cn/",
+  timeout: 60 * 1000, 
   // withCredentials: true, // Check cross-site Access-Control
 };
 

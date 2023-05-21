@@ -24,6 +24,15 @@ const routes = [
     path: '/songlist',
     name: 'songlist',
     component: () => import('@/views/SongList.vue')
+  },
+  {
+    path: '/songdetail/:id',
+    name: 'songdetail',
+    props:true,
+    component: () => import('@/views/SongDetail.vue'),
+    meta:{
+      hideTab:true
+    },
   }
 ]
 

@@ -16,6 +16,7 @@
           class="personalized-item"
           v-for="item in personalized"
           :key="item.id"
+          @click="skipsongdetail(item.id)"
         >
           <div class="playcount">
             <span
@@ -53,6 +54,14 @@ export default {
         setTimeout(() => {
           vm.flag = false;
         }, 1000);
+      });
+    },
+    skipsongdetail(id) {
+      this.$router.push({
+        name: "songdetail",
+        params: {
+          id,
+        },
       });
     },
   },
@@ -103,7 +112,7 @@ li {
   position: relative;
   .playcount {
     position: absolute;
-    top: 0;
+    top: 5px;
     z-index: 2;
     right: 10px;
     color: #fff;
